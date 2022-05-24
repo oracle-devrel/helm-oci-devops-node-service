@@ -11,8 +11,8 @@ Let's go!
 The first step to get started is to download the repository to your local workspace
 
 ```shell
-git clone git@github.com:oracle-quickstart/oci-devops-node
-cd oci-devops-node
+git clone http://github.com/oracle-devrel/helm-oci-devops-node-service
+cd helm-oci-devops-node-service
 ```
 
 ## Install and run the Express example
