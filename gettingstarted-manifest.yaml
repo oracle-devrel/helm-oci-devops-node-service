@@ -33,7 +33,9 @@ metadata:
   name: node-gettingstarted-service
   namespace: ${namespace}
   annotations: 
-    service.beta.kubernetes.io/oci-load-balancer-shape: "10Mbps"
+    service.beta.kubernetes.io/oci-load-balancer-shape: "flexible"
+    service.beta.kubernetes.io/oci-load-balancer-shape-flex-min: "10"
+    service.beta.kubernetes.io/oci-load-balancer-shape-flex-max: "100"
 spec:
   type: LoadBalancer
   ports:
